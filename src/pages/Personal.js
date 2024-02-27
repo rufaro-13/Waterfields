@@ -1,6 +1,6 @@
 import React from 'react'
 import personal from '../images/adult-male-waiting-recovery-session-start.jpg'
-import { Helmet } from 'react-helmet-async'
+/* import { Helmet } from 'react-helmet-async' */
 function Personal() {
   return (
     <div>

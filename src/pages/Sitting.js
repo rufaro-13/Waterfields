@@ -1,6 +1,6 @@
 import React from 'react'
 import supported from '../images/2150829771.jpg'
-import { Helmet } from 'react-helmet-async'
+/* import { Helmet } from 'react-helmet-async' */
 function Sitting() {
   return (
     <div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import inclusion from '../images/senior-women-celebrating-friendship-park.jpg'
-import {Helmet} from 'react-helmet-async'
+/* import {Helmet} from 'react-helmet-async' */
 function Social() {
   return (
     <div>

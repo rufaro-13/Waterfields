@@ -3,7 +3,7 @@ import emailjs from '@emailjs/browser';
 import { HiMail } from 'react-icons/hi'
 import { IconContext } from "react-icons";
 import { FaEnvelopeOpenText, FaLocationDot, FaMobileScreenButton  } from 'react-icons/fa6';
-import {Helmet} from 'react-helmet-async'
+/* import {Helmet} from 'react-helmet-async' */
 //import  Map from '../components/Map'
 
 function Contact() {

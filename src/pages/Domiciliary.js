@@ -4,7 +4,7 @@ import domic from "../images/social-worker-taking-care-senior-woman.jpg"
 import paliat from '../images/happy-nurse-serving-elderly-senior-man-breakfast-bed-bedroom-nursing-home-thumb-up.jpg'
 import respite from '../images/shes-like-daughter-me-portrait-cheerful-young-female-nurse-holding-elderly-patient-wheelchair-as-support-inside-home-during-day_590464-12165.avif'
 import {Link} from 'react-router-dom'
-import { Helmet } from 'react-helmet-async'
+/* import { Helmet } from 'react-helmet-async' */
 function Domiciliary() {
   return (
     <div>

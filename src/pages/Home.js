@@ -2,7 +2,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import domic from "../images/unrecognizable-elderly-man-being-assisted-walk-with-mobility-walker-nursing-home.jpg"
-import { Helmet } from 'react-helmet-async';
+/* import { Helmet } from 'react-helmet-async'; */
 import paliat from '../images/happy-nurse-serving-elderly-senior-man-breakfast-bed-bedroom-nursing-home-thumb-up.jpg'
 import respite from '../images/side-view-nurse-pushing-disabled-patient-wheel-chair.jpg'
 import supported from '../images/social-worker-taking-care-senior-woman.jpg'
