@@ -8,27 +8,27 @@ export default function NavbarWithCTAButton() {
   return (
 <div>
 <   nav class="bg-white border-gray-200 dark:bg-gray-900">
-        <div class="flex flex-wrap grid grid-cols-2 h-16  justify-between items-center  max-w-screen-2xl ">
-            <div class="flex bg-navcolour h-full items-center space-x-3 rtl:space-x-reverse  ">
+        <div class="flex flex-wrap grid grid-cols-2 sm:h-8 md:h-16  justify-between items-center  max-w-screen-2xl ">
+            <div class=" md:flex bg-navcolour h-full items-center space-x-3 rtl:space-x-reverse  ">
 
                 <IconContext.Provider value={{ color: 'white', size: '20px', padding:'2px 2px' }}>
-                   <a href="mailto:admin@waterfieldshealthcare.co.uk" class="text-base font-normal mx-auto text-white dark:text-white hover:underline">
-                    <div class="flex  sm:items-center sm:justify-center  my-auto">
-                    <FaEnvelopeOpenText class="sm:items-center sm:justify-center mx-auto "/>Email: admin@waterfieldshealthcare.co.uk
+                   <a href="mailto:admin@waterfieldshealthcare.co.uk" class=" font-normal mx-auto text-white dark:text-white hover:underline">
+                    <div class="flex  sm:items-center sm:justify-center text-xs md:text-base my-auto">
+                    <FaEnvelopeOpenText class="sm:items-center sm:justify-center mx-auto  "/>Email: admin@waterfieldshealthcare.co.uk
                     </div></a>
                 </IconContext.Provider>
 
                 <IconContext.Provider value={{ color: 'white', size: '20px', padding:'3px 2px' }}>
-                <a href="tel:5541251234" class="text-base font-normal mx-auto  text-white dark:text-white hover:underline">
-                    <div class="flex  sm:items-center sm:justify-center mr-2 my-auto">
-                    <FaMobileScreenButton class="sm:items-center sm:justify-center mr-2 "/>(+44) 7451 998 627
+                <a href="tel:5541251234" class=" font-normal mx-auto  text-white dark:text-white hover:underline">
+                    <div class="flex  sm:items-center text-xs md:text-base sm:justify-center mr-2 my-auto">
+                    <FaMobileScreenButton class="sm:items-center sm:justify-center  mr-2 "/>(+44) 7451 998 627
                     </div></a>
                 </IconContext.Provider>
     
             </div>
             <div class="flex items-center h-full space-x-6 rtl:space-x-reverse bg-green-400">
 
-                <h1 className="text-lg font-bold mx-auto  text-yellowtheme1 dark:text-white">Love and Care for loved ones</h1>
+                <h1 className="text-lg font-bold mx-auto  text-yellowtheme1 dark:text-white">Love and Care for all</h1>
                 
             </div>
         </div>
