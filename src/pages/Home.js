@@ -8,7 +8,7 @@ import respite from '../images/side-view-nurse-pushing-disabled-patient-wheel-ch
 import supported from '../images/social-worker-taking-care-senior-woman.jpg'
 /* import serv from '../images/24-hours.gif' */
 import Hero from '../components/Hero';
-import vide from '../images/pexels-kampus-production-7517699 (720p).mp4'
+/* import vide from '../images/pexels-kampus-production-7517699 (720p).mp4' */
 function Home() {
   return (
     <div >
