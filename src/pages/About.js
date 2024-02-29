@@ -124,7 +124,7 @@ function About() {
 
                             </div>
 
-                            <div class='flex mt-2 col-span-1 shadow-xl rounded-lg bg-gray-200'>
+                            <div class='flex mt-4 col-span-1 shadow-xl rounded-lg bg-gray-200'>
                                 <IconContext.Provider value={{ color: '#9E8604', size: '50px', padding:'1px ' }}>
                                     <div class="  sm:items-center sm:justify-center    mb-1">
                                     <TbStarFilled class="sm:items-center sm:justify-center  "/>
@@ -142,7 +142,7 @@ function About() {
 
                             </div>
 
-                            <div class='flex mt-2 col-span-1 shadow-xl rounded-lg bg-gray-200'>
+                            <div class='flex mt-4 col-span-1 shadow-xl rounded-lg bg-gray-200'>
                                 <IconContext.Provider value={{ color: '#9E8604', size: '50px', padding:'1px ' }}>
                                     <div class="  sm:items-center sm:justify-center    mb-1">
                                     <TbStarFilled class="sm:items-center sm:justify-center  "/>

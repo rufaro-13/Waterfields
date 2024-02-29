@@ -55,7 +55,7 @@ function Contact() {
                   <div className='lg:w-3/5 '> 
                     <div class=" grid lg:grid-cols-2 lg:gap-12  md:grid-cols-2 md:gap-x-2 grid-col-1 px-2 md:px-2 pt-4 items-center sm:items-center sm:justify-center mx-4  lg:mx-2 mt-1">
                     
-                    <div class="lg:px-1 px-4  col-span-1 max-w-max  md:w-1/2 sm:items-start sm:justify-start">
+                    {/* <div class="lg:px-1 px-4  col-span-1 max-w-max  md:w-1/2 sm:items-start sm:justify-start">
 
                         <IconContext.Provider value={{ color: '#ff0000', size: '50px', padding:'5px 2px' }}>
                             <a href="mailto:WaterFieldsltd@gmail.com"><div class="  sm:items-center sm:justify-center  mx-5 mt-5 mb-5">
@@ -70,7 +70,7 @@ function Contact() {
 
                             </p>
                           </div>
-                    </div>
+                    </div> */}
 
                     <div class="lg:px-1 px-4  col-span-1 max-w-max  md:w-1/2 sm:items-start sm:justify-start">
 
@@ -111,14 +111,31 @@ function Contact() {
                             </p>
                           </div>
 
-                          
+                    </div>
+
+                    <div class="lg:px-1 px-4  col-span-1 max-w-max  md:w-1/2 sm:items-start sm:justify-start">
+
+                          <IconContext.Provider value={{ color: '#231f32', size: '50px', padding:'5px 2px' }}>
+                            <a href="tel:07401220999"><div class="  sm:items-center sm:justify-center   mt-5 mb-5">
+                              <FaMobileScreenButton class="sm:items-center sm:justify-center  my-6"/>
+                            </div></a>
+                          </IconContext.Provider>
+                          <div class="  sm:items-center sm:justify-center   mt-1">
+                            <p class=" text-1xl font-normal">
+                            <div><span class="text-black text-2xl font-bold  "><a href="tel:07853 981 484" 
+                            className="block py-2  underline text-darkbluetheme rounded hover:bg-gray-100 md:hover:bg-transparent 
+                            md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700
+                             dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Call Us</a></span></div>
+                            Mobile: 07853981484
+                            </p>
+                          </div>
 
                     </div>
 
                     {/* <div class="max-w-fit  sm:82 rounded-lg  sm:items-center sm:justify-center py-4  lg:ml-48 mt-8">
 
                           <IconContext.Provider value={{ color: '#231f32', size: '50px', padding:'5px 2px' }}>
-                            <a href="tel:07463 372 8971"><div class="  sm:items-center sm:justify-center   mt-5 mb-5">
+                            <a href="tel:07853 981 484"><div class="  sm:items-center sm:justify-center   mt-5 mb-5">
                               <FaMobileScreenButton class="sm:items-center sm:justify-center  my-6"/>
                             </div></a>
                           </IconContext.Provider>
@@ -127,12 +144,14 @@ function Contact() {
                           <div class="  sm:items-center sm:justify-center   mt-1">
                             <p class=" text-1xl font-normal">
                             <div><span class="text-black "><a href="tel:07463 372 8971" 
-                            className="block py-2  underline text-navcolour rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Call Us</a></span></div>
-                            Mobile: 07463 372 8971
+                            className="block py-2  underline text-darkbluetheme rounded hover:bg-gray-100 md:hover:bg-transparent 
+                            md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700
+                             dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Call Us</a></span></div>
+                            Mobile: 07853 981 484
                             </p>
                           </div>
 
-                    </div> */}
+                    </div>  */}
 
                    
 
@@ -140,7 +159,7 @@ function Contact() {
                     <div class="lg:px-1 px-3  col-span-1 max-w-max  md:w-1/2 sm:items-start sm:justify-start">
 
                           <IconContext.Provider value={{ color: '#89cff0', size: '50px', padding:'5px 2px' }}>
-                            <a href="https://www.google.com/maps/place/6+Willow+Wy.,+Coventry+CV3+3HY,+UK/@52.3855855,-1.4515059,17z"><div class="  sm:items-center sm:justify-center   mt-5 mb-5">
+                            <a href="https://www.google.com/maps/place/10+Floathaven+Cl,+London+SE28+8SN,+UK/@51.5023267,0.104638,17.04z"><div class="  sm:items-center sm:justify-center   mt-5 mb-5">
                               <FaLocationDot class="sm:items-center sm:justify-center  my-6"/>
                             </div></a>
                           </IconContext.Provider>
@@ -148,11 +167,12 @@ function Contact() {
                             <p class=" text-1xl font-normal">
                               <div>
                                 <span class="text-black text-2xl font-bold">
-                                  <a href="https://www.google.com/maps/place/6+Willow+Wy.,+Coventry+CV3+3HY,+UK/@52.3855855,-1.4515059,17z" 
+                                  <a href="https://www.google.com/maps/place/10+Floathaven+Cl,+London+SE28+8SN,+UK/@51.5023267,0.104638,17.04z" 
                                       className="block py-2  underline text-navcolour rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Visit Us</a></span></div>
-                                      WaterFields Health Care <br/>6 Willow way 
-                                      <br/>Coventry
-                                      <br/>CV3 3HU
+                                      WaterFields Health Care <br/>10 Floathaven Close
+                                      <br/>Thamesmead
+                                      <br/>London
+                                      <br/>SE28 8SN
                             </p>
                           </div>
 

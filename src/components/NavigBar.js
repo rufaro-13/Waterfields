@@ -52,7 +52,7 @@ export default function NavbarWithCTAButton() {
           src={logo}
         /></Link>
         <span className="self-center whitespace-nowrap text-pink-500 text-xl font-bold dark:text-white">
-          WaterFields Health Care
+          WaterFields HealthCare
         </span>
       </Navbar.Brand>
       <div className="flex md:order-2 text-white">
