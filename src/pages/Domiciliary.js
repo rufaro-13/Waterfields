@@ -17,7 +17,7 @@ function Domiciliary() {
         <section class=" bg-cover bg-center bg-no-repeat bg-team_work bg-gray-600  bg-blend-multiply">
             <div class="px-4 mx-auto max-w-screen-xl  bg- py-24 lg:py-34">
                 <h1 class="mb-4 text-4xl font-extrabold  tracking-tight leading-none text-yellowtheme md:text-5xl lg:text-6xl">
-                Services offered by WaterField:</h1>
+                Services offered by WaterFields:</h1>
                
                 <div class="  md:w-1/2   rounded-lg  text-white   mx-4 ">
                             
@@ -105,7 +105,7 @@ function Domiciliary() {
                         </h4>
                     </div> 
                         <div class="  grid  lg:grid-cols-3 lg:gap-x-3 m-auto md:grid-cols-2 md:gap-x-2 grid-col-1  lg:px-2 item-stretch ">
-                            <div id='palliative' class=" mt-8 pt-4 pb-4">
+                            <div id='palliative' class=" mt-8 pt-4 pb-4 ">
                                 <div class="md:w-full col-span-1  pt-2">
                                     <img class="rounded-t-lg  " src={paliat}  alt="" />
                                 </div>

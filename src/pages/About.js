@@ -6,7 +6,7 @@ import { IconContext } from "react-icons";
 
 function About() {
   return (
-    <div>
+    <div class="bg-sky-50">
 
     {/*  <Helmet>
             <title>About WaterFields HealthCare Ltd</title>
@@ -27,7 +27,7 @@ function About() {
 
                 <div class="md:flex pt-4 pb-4 bg-sky-50">
 
-                    <div class="md:w-1/2 shadow-2xl sm:82 rounded-lg   sm:items-center sm:justify-center   mx-2 ">
+                    <div class="md:w-1/2 shadow-2xl sm:82 rounded-lg bg-gray-200  sm:items-center sm:justify-center   mx-2 ">
                         <div class='flex ml-4'>
                         <h5 class=" mb-4 text-2xl font-bold tracking-tight leading-none text-center text-titleblue md:text-3xl lg:text-4xl pt-2">
                            Our Mission <br/><br/>
@@ -52,7 +52,7 @@ function About() {
 
                     </div>
 
-                    <div class="md:w-1/2  sm:82 rounded-lg   sm:items-center sm:justify-center   mx-2 ">
+                    <div class="md:w-1/2 shadow-2xl sm:82 rounded-lg bg-gray-200  sm:items-center sm:justify-center   mx-2 ">
                         <div class='flex ml-4'>
                         <h5 class=" mb-4 text-2xl font-bold tracking-tight leading-none text-center text-titleblue md:text-3xl lg:text-4xl pt-2">
                            Our Vision <br/><br/>
@@ -78,19 +78,19 @@ function About() {
 
                 </div>
 
-                <div class="md:flex pt-4 pb-4">
+                <div class="md:flex pt-4 pb-1">
 
                      
 
                     <div class="md:w-full  sm:82 rounded-lg  sm:items-center sm:justify-center   mx-2 ">
-                        <h5 class="mx-auto mb-4 text-2xl font-bold tracking-tight leading-none text-center text-darkbluetheme md:text-3xl lg:text-5xl pt-2">
+                        <h5 class="mx-auto mb-2 text-2xl font-bold tracking-tight leading-none text-center text-darkbluetheme md:text-3xl lg:text-5xl pt-2">
                            Our Values <br/><br/>
                         </h5>
-                        <div class="  grid  lg:grid-cols-2 lg:gap-x-3 m-auto md:grid-cols-2 md:gap-x-2 grid-col-1 px-2 item-stretch ">
+                        <div class="  grid pb-4 lg:grid-cols-2 lg:gap-x-3 m-auto md:grid-cols-2 md:gap-x-2 grid-col-1 px-2 item-stretch ">
                        
-                            <div class='flex col-span-1'>
-                                <IconContext.Provider value={{ color: '#9E8604', size: '50px', padding:'1px ' }}>
-                                    <div class="  sm:items-center sm:justify-center    mb-4">
+                            <div class='flex col-span-1 shadow-xl rounded-lg bg-gray-200'>
+                                <IconContext.Provider value={{ color: '#9E8604', size: '50px', padding:'2px ' }}>
+                                    <div class="  sm:items-center sm:justify-center    mb-1">
                                     <TbStarFilled class="sm:items-center sm:justify-center  "/>
                                     </div>
                                 </IconContext.Provider>
@@ -106,7 +106,7 @@ function About() {
 
                             </div>
 
-                            <div class='flex col-span-1'>
+                            <div class='flex col-span-1 shadow-xl rounded-lg bg-gray-200'>
                                 <IconContext.Provider value={{ color: '#9E8604', size: '50px', padding:'1px ' }}>
                                     <div class="  sm:items-center sm:justify-center    mb-4">
                                     <TbStarFilled class="sm:items-center sm:justify-center  "/>
@@ -124,9 +124,9 @@ function About() {
 
                             </div>
 
-                            <div class='flex col-span-1'>
+                            <div class='flex mt-2 col-span-1 shadow-xl rounded-lg bg-gray-200'>
                                 <IconContext.Provider value={{ color: '#9E8604', size: '50px', padding:'1px ' }}>
-                                    <div class="  sm:items-center sm:justify-center    mb-4">
+                                    <div class="  sm:items-center sm:justify-center    mb-1">
                                     <TbStarFilled class="sm:items-center sm:justify-center  "/>
                                     </div>
                                 </IconContext.Provider>
@@ -142,9 +142,9 @@ function About() {
 
                             </div>
 
-                            <div class='flex col-span-1'>
+                            <div class='flex mt-2 col-span-1 shadow-xl rounded-lg bg-gray-200'>
                                 <IconContext.Provider value={{ color: '#9E8604', size: '50px', padding:'1px ' }}>
-                                    <div class="  sm:items-center sm:justify-center    mb-4">
+                                    <div class="  sm:items-center sm:justify-center    mb-1">
                                     <TbStarFilled class="sm:items-center sm:justify-center  "/>
                                     </div>
                                 </IconContext.Provider>

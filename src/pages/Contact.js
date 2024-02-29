@@ -140,7 +140,7 @@ function Contact() {
                     <div class="lg:px-1 px-3  col-span-1 max-w-max  md:w-1/2 sm:items-start sm:justify-start">
 
                           <IconContext.Provider value={{ color: '#89cff0', size: '50px', padding:'5px 2px' }}>
-                            <a href="https://www.google.com/maps/place/27+Allesley+Old+Rd,+Chapel+Fields,+Coventry+CV5+8BU,+UK/@52.4081204,-1.5319451,17z"><div class="  sm:items-center sm:justify-center   mt-5 mb-5">
+                            <a href="https://www.google.com/maps/place/6+Willow+Wy.,+Coventry+CV3+3HY,+UK/@52.3855855,-1.4515059,17z"><div class="  sm:items-center sm:justify-center   mt-5 mb-5">
                               <FaLocationDot class="sm:items-center sm:justify-center  my-6"/>
                             </div></a>
                           </IconContext.Provider>
@@ -148,12 +148,11 @@ function Contact() {
                             <p class=" text-1xl font-normal">
                               <div>
                                 <span class="text-black text-2xl font-bold">
-                                  <a href="https://www.google.com/maps/place/10+Floathaven+Cl,+London+SE28+8SN,+UK/@51.5023267,0.104638,17.04z" 
+                                  <a href="https://www.google.com/maps/place/6+Willow+Wy.,+Coventry+CV3+3HY,+UK/@52.3855855,-1.4515059,17z" 
                                       className="block py-2  underline text-navcolour rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Visit Us</a></span></div>
-                                      WaterFields Health Care <br/>10 Floathaven Close
-                                      <br/>Thamesmead
-                                      <br/>London
-                                      <br/>SE28 8SN
+                                      WaterFields Health Care <br/>6 Willow way 
+                                      <br/>Coventry
+                                      <br/>CV3 3HU
                             </p>
                           </div>
 
