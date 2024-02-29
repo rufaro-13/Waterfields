@@ -1,9 +1,9 @@
 import React from 'react'
 import logo from '../logo.svg'
 import {Link} from 'react-router-dom'
-import excellent from '../images/excellence.png'
-import equal from '../images/no-equal-to.png'
-import amazing from '../images/care.png'
+import excellent from '../images/reliability.png'
+import equal from '../images/expertise.png'
+import amazing from '../images/public-service.png'
 
 function Footer() {
   return (
@@ -19,7 +19,7 @@ function Footer() {
     <div className='lg:flex grid  lg:grid-cols-3 lg:gap-4 m-auto md:grid-cols-2 md:gap-x-2 grid-col-1 pt-8 px-2 md:px-5 '>
 
           <div className="lg:px-8 px-4 col-span-1 lg:w-full md:w-1/2 sm:items-center sm:justify-center">
-            <center><img src={excellent} alt='excellence'  class=" sm:items-center sm:justify-center mx-1   
+            <center><img src={excellent} alt='excellence' style={{  width: "20%" ,height: "75%",}}  class=" sm:items-center sm:justify-center mx-1   
             my-6"/>
             <h5 className="md:text-2xl text-lg font-bold tracking-tight text-darkbluetheme dark:text-white pt-2">
                 <p class="text-titleblue">
@@ -39,7 +39,7 @@ function Footer() {
           </div>
 
           <div className="lg:px-8 px-4 col-span-1 lg:w-full md:w-1/2 sm:items-center sm:justify-center">
-            <center><img src={amazing} alt='excellence'  class=" sm:items-center sm:justify-center mx-1   my-6"/>
+            <center><img src={amazing} alt='excellence'  style={{  width: "20%" ,height: "75%",}}  class=" sm:items-center sm:justify-center mx-1   my-6"/>
             <h5 className="md:text-2xl text-lg font-bold tracking-tight text-darkbluetheme dark:text-white pt-2">
                 <p class="text-titleblue">
                 We Care
@@ -56,7 +56,7 @@ function Footer() {
           </div>
 
           <div className="lg:px-8 px-4 col-span-1 lg:w-full md:w-1/2 sm:items-center sm:justify-center">
-            <center><img src={equal} alt='excellence'  class=" sm:items-center sm:justify-center mx-1   my-6"/>
+            <center><img src={equal} alt='excellence' style={{  width: "20%" ,height: "75%",}}  class=" sm:items-center sm:justify-center mx-1   my-6"/>
             <h5 className="md:text-2xl text-lg font-bold tracking-tight text-darkbluetheme dark:text-white pt-2">
                 <p class="text-titleblue">
                 We are Professionals

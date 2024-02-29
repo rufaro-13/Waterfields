@@ -7,6 +7,7 @@ import paliat from '../images/happy-nurse-serving-elderly-senior-man-breakfast-b
 import respite from '../images/side-view-nurse-pushing-disabled-patient-wheel-chair.jpg'
 import supported from '../images/social-worker-taking-care-senior-woman.jpg'
 /* import serv from '../images/24-hours.gif' */
+import Hero from '../components/Hero';
 import vide from '../images/pexels-kampus-production-7517699 (720p).mp4'
 function Home() {
   return (
@@ -18,30 +19,35 @@ function Home() {
             <link rel="canonical" href="/" />
         </Helmet> */}
        <section>
-        <section class="container bg-cover bg-center bg-no-repeat bg-hero_pattern bg-gray-400 bg-blend-multiply ">
+        <section class="container bg-cover bg-center bg-no-repeat bg-hero_pattern md:justify-center bg-blend-multiply ">
             
-          <video class="video-fluid" controls autoPlay muted loop   >
+          {/* <video class="video-fluid" controls autoPlay muted loop   >
             <source src={vide} type="video/mp4" />
              
-          </video>
-          <div class=" overlay px-4 mx-auto max-w-screen-xl text-center sm:py-16  lg:py-40">
+          </video> */}
+            <Hero/>
+
+       {/*    <div class=" overlay px-4 mx-auto max-w-screen-xl text-left sm:py-16  lg:py-40">
                 <h1 class=" text-4xl font-extrabold  tracking-tight leading-none text-pink-800 md:text-5xl lg:text-6xl">WaterField Health Care Ltd,</h1>
                 <p class=" text-2xl font-bold text-pink-800  lg:text-4xl sm:px-16 lg:px-48">
                 the home of quality care.
                     
                 </p>
-                <div class="flex flex-col space-y-4 rounded-lg border-solid border-navcolour sm:flex-row sm:justify-center pt-5 sm:space-y-0 sm:space-x-4">
+                <div class="flex flex-col space-y-4 rounded-lg border-solid border-navcolour sm:flex-row text-left pt-5 sm:space-y-0 sm:space-x-4">
                     
-                   <p className='text-white  py-3 px-3 rounded-lg font-bold  border-navcolour text-1xl lg:text-3xl md:w-1/2'>
+                   <p className='text-yellowtheme py-3 px-3 rounded-lg font-bold  border-navcolour text-1xl lg:text-3xl md:w-1/2'>
                    An affordable service which prioritises the comfort and wellbeing of clients.
                    </p>      
                 </div> 
 
                 
-            </div>
+            </div> */}
         </section>
         {/* <div className=' text-center italic text-xs'><a  href=' https://www.pexels.com/video/a-woman-instructing-the-elderly-man-to-the-medicine-7517699/'>  Video by Kampus Production</a></div> */}
-
+{/* 
+        <section class="container bg-cover bg-center bg-no-repeat bg-hero_pattern bg-gray-400 bg-blend-multiply ">
+            <Hero/>
+        </section> */}
         <section>
             <div class=" px-4 mx-auto max-w-screen-xl text-center pt-4">
 
@@ -57,7 +63,7 @@ function Home() {
 
                 <div class=" lg:flex grid  lg:grid-cols-2 lg:gap-x-3 m-auto md:grid-cols-2 md:gap-x-2 grid-col-1 px-2 item-stretch ">
 
-                    <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:translate-x-6 hover:scale-110 duration-300 hover:bg-cards col-span-1 rounded-lg bg-bluetheme  md:w-1/2 mt-8 sm:items-center sm:justify-center">
+                    <div className=" shadow-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:translate-x-6 hover:scale-110 duration-300 hover:bg-cards col-span-1 rounded-lg bg-bluetheme  md:w-1/2 mt-8 sm:items-center sm:justify-center">
                         <img class="rounded-lg" src={domic} alt="old man sitting on a wheelchair" />
                         <h5 className="md:text-2xl text-lg font-bold tracking-tight text-titleblue dark:text-white pt-2">
                             <p>
@@ -81,7 +87,7 @@ function Home() {
                     </div>
                     
 
-                    <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:translate-x-6  hover:scale-110 duration-300 hover:bg-cards col-span-1 rounded-lg bg-bluetheme lg:w-1/2 md:w-1/2 mt-8 sm:items-center sm:justify-center">
+                    <div className="shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:translate-x-6  hover:scale-110 duration-300 hover:bg-cards col-span-1 rounded-lg bg-bluetheme lg:w-1/2 md:w-1/2 mt-8 sm:items-center sm:justify-center">
                     
                         <img class="rounded-lg" src={paliat} alt="end of life care of a man with terminal illness" />
                         <h5 className="md:text-2xl text-lg font-bold tracking-tight text-titleblue dark:text-white pt-2">
@@ -104,7 +110,7 @@ function Home() {
                         
                     </div>
                 
-                    <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:translate-x-6 hover:scale-110 duration-300 hover:bg-cards col-span-1 lg:w-1/2 rounded-lg bg-bluetheme md:w-1/3 mt-8 sm:items-center sm:justify-center">
+                    <div className="shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:translate-x-6 hover:scale-110 duration-300 hover:bg-cards col-span-1 lg:w-1/2 rounded-lg bg-bluetheme md:w-1/3 mt-8 sm:items-center sm:justify-center">
                         <img class="rounded-t-lg" src={respite} alt="young-doctor-helping-one-guy-stand-up" />
                         <h5 className="md:text-2xl text-lg font-bold tracking-tight text-titleblue dark:text-white pt-2">
                             <p>
@@ -126,7 +132,7 @@ function Home() {
                         </p>
                     </div>
 
-                    <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:translate-x-6 hover:scale-110 duration-300 hover:bg-cards col-span-1 rounded-lg bg-bluetheme lg:w-1/2 md:w-1/3 mt-8 sm:items-center sm:justify-center">
+                    <div className="shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:translate-x-6 hover:scale-110 duration-300 hover:bg-cards col-span-1 rounded-lg bg-bluetheme lg:w-1/2 md:w-1/3 mt-8 sm:items-center sm:justify-center">
                         <img class="rounded-t-lg" src={supported} alt="male-social-worker-taking-care-old-woman" />
                         <h5 className="md:text-2xl text-lg font-bold tracking-tight text-titleblue dark:text-white pt-2">
                             <p >

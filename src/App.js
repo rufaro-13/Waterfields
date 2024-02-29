@@ -1,8 +1,8 @@
 //import logo from './logo.svg';
 import './App.css';
-import Home from './pages/Home';
+import Home from './pages/Home.js';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Layout from './components/Layout';
+import Layout from './components/Layout.js';
 import ScrollToTop from './pages/ScrollToTop';
 import About from './pages/About';
 import Contact from './pages/Contact';

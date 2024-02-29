@@ -1,13 +1,14 @@
-'use client';
-import { IconContext } from "react-icons";
-import { FaEnvelopeOpenText,FaMobileScreenButton} from 'react-icons/fa6';
+'use client'
+
+import {FaEnvelopeOpenText,FaMobileScreenButton} from 'react-icons/fa6';
 import {Dropdown,  Navbar } from 'flowbite-react';
 import { Link } from "react-router-dom";
 import logo from '../logo.svg'
+import {IconContext} from "react-icons";
 export default function NavbarWithCTAButton() {
   return (
 <div>
-<   nav class="bg-white border-gray-200 dark:bg-gray-900">
+ <nav class="bg-white border-gray-200 dark:bg-gray-900">
         <div class="flex flex-wrap grid grid-cols-2 sm:h-8 md:h-16  justify-between items-center  max-w-screen-2xl ">
             <div class=" md:flex bg-navcolour h-full items-center space-x-3 rtl:space-x-reverse  ">
 
