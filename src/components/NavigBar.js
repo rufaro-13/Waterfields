@@ -3,7 +3,7 @@
 import {FaEnvelopeOpenText,FaMobileScreenButton} from 'react-icons/fa6';
 import {Dropdown,  Navbar } from 'flowbite-react';
 import { Link } from "react-router-dom";
-import logo from '../logo.svg'
+import logo from '../images/logo.jpg'
 import {IconContext} from "react-icons";
 export default function NavbarWithCTAButton() {
   return (
@@ -13,9 +13,9 @@ export default function NavbarWithCTAButton() {
             <div class=" md:flex bg-navcolour h-full items-center space-x-3 rtl:space-x-reverse  ">
 
                 <IconContext.Provider value={{ color: 'white', size: '20px', padding:'2px 2px' }}>
-                   <a href="mailto:admin@waterfieldshealthcare.co.uk" class=" font-normal mx-auto text-white dark:text-white hover:underline">
+                   <a href="mailto:admin@waterfieldshealthcare.com" class=" font-normal mx-auto text-white dark:text-white hover:underline">
                     <div class="flex  sm:items-center sm:justify-center text-xs md:text-base my-auto">
-                    <FaEnvelopeOpenText class="sm:items-center sm:justify-center mx-auto  "/>Email: admin@waterfieldshealthcare.co.uk
+                    <FaEnvelopeOpenText class="sm:items-center sm:justify-center mx-auto  "/>Email: admin@waterfieldshealthcare.com
                     </div></a>
                 </IconContext.Provider>
 

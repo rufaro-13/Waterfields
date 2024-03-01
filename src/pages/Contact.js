@@ -13,7 +13,7 @@ function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_1o8tg9l', 'template_9usimln', form.current, 'zsXeHFcXHb9-lLsjg')
+    emailjs.sendForm('service_x931vsm', 'template_7i050xe', form.current, 'j8KhbaClbipIMUX3L')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -26,7 +26,7 @@ function Contact() {
     <div>
 
 {/* <Helmet>
-            <title>WaterFields Health Care Contacts</title>
+            <title>WaterFields HealthCare Contacts</title>
             <meta name="description" content="Get in touch with us in the provided contact information"/>
             <link rel="canonical" href="/contact" />
         </Helmet> */}
@@ -35,7 +35,7 @@ function Contact() {
 
                 <div class="lg:px-4 mx-auto max-w-screen-xl text-center pt-6  ">
                     <h4 class="mb-4 text-1xl font-extrabold tracking-tight leading-none text-darkbluetheme md:text-3xl lg:text-3xl">
-                    Contacting WaterFields Health Care
+                    Contacting WaterFields HealthCare
                     </h4>
                 </div> 
 
@@ -55,22 +55,22 @@ function Contact() {
                   <div className='lg:w-3/5 '> 
                     <div class=" grid lg:grid-cols-2 lg:gap-12  md:grid-cols-2 md:gap-x-2 grid-col-1 px-2 md:px-2 pt-4 items-center sm:items-center sm:justify-center mx-4  lg:mx-2 mt-1">
                     
-                    {/* <div class="lg:px-1 px-4  col-span-1 max-w-max  md:w-1/2 sm:items-start sm:justify-start">
+                     <div class="lg:px-1 px-4  col-span-1 max-w-max  md:w-1/2 sm:items-start sm:justify-start">
 
                         <IconContext.Provider value={{ color: '#ff0000', size: '50px', padding:'5px 2px' }}>
-                            <a href="mailto:WaterFieldsltd@gmail.com"><div class="  sm:items-center sm:justify-center  mx-5 mt-5 mb-5">
+                            <a href="mailto:talk2us@waterfieldshealthcare.com"><div class="  sm:items-center sm:justify-center  mx-5 mt-5 mb-5">
                             
                             <FaEnvelopeOpenText class="sm:items-center sm:justify-center mx-6 my-6"/>
                             </div></a>
                           </IconContext.Provider>
                           <div class="  sm:items-center sm:justify-center  mt-1">
                             <p class=" text-1xl font-normal">
-                            <div><span class="text-black text-2xl font-bold"><a href="mailto:WaterFieldsltd@gmail.com" className="block py-2 pl-3 pr-4 underline text-navcolour rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Email Us</a></span></div>
-                            waterfieldshealthcareltd@gmail.com
+                            <div><span class="text-black text-2xl font-bold"><a href="mailto:talk2us@waterfieldshealthcare.com" className="block py-2 pl-3 pr-4 underline text-navcolour rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Email Us</a></span></div>
+                            talk2us@waterfieldshealthcare.com
 
                             </p>
                           </div>
-                    </div> */}
+                    </div> 
 
                     <div class="lg:px-1 px-4  col-span-1 max-w-max  md:w-1/2 sm:items-start sm:justify-start">
 
@@ -169,7 +169,7 @@ function Contact() {
                                 <span class="text-black text-2xl font-bold">
                                   <a href="https://www.google.com/maps/place/10+Floathaven+Cl,+London+SE28+8SN,+UK/@51.5023267,0.104638,17.04z" 
                                       className="block py-2  underline text-navcolour rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Visit Us</a></span></div>
-                                      WaterFields Health Care <br/>10 Floathaven Close
+                                      WaterFields HealthCare <br/>10 Floathaven Close
                                       <br/>Thamesmead
                                       <br/>London
                                       <br/>SE28 8SN

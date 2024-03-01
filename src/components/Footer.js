@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../logo.svg'
+import logo from '../images/logo1.png'
 import {Link} from 'react-router-dom'
 import excellent from '../images/reliability.png'
 import equal from '../images/expertise.png'
@@ -83,7 +83,7 @@ function Footer() {
         <div class="sm:flex sm:items-center sm:justify-between">
             <a href="jjj" class="flex items-center mb-4 sm:mb-0">
                 <img src={logo} class="h-8 md:h-16 ml-2" alt="Enroute Logo" />
-                <span class="self-center text-yellowfooter md:text-2xl text-1xl font-bold whitespace-nowrap dark:text-white">  WaterField Health Care Ltd</span>
+                <span class="self-center text-yellowfooter md:text-2xl text-1xl font-bold whitespace-nowrap dark:text-white">  WaterFields HealthCare Ltd</span>
             </a>
             <ul class="flex flex-wrap text-lg text-sm  pt-6 text-base font-medium text-white sm:mb-0 dark:text-gray-400">
                 <p className='text-yellowfooter text-lg font-bold md:px-6 px-4'>
@@ -116,7 +116,7 @@ function Footer() {
         <div class="sm:flex sm:items-center sm:justify-between ml-3">
         <span class="block text-sm text-yellowfooter sm:text-center dark:text-gray-400 col-span-1">© 2024  
             <a href="jjj" class="hover:underline text-yellowfooter">
-                 WaterField Health Care™
+                 WaterFields HealthCare™
             </a>. 
             All Rights Reserved.
         </span>

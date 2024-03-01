@@ -66,7 +66,7 @@ function About() {
 
                         <p class="pl-4 font-normal text-darkbluetheme text-sm md:text-lg">
                         
-                        WaterFields will be a recognised leader in improving the quality of health care in the communities we serve .<br/>
+                        WaterFields will be a recognised leader in improving the quality of HealthCare in the communities we serve .<br/>
                         To become providers of choice.
 
 
@@ -151,7 +151,7 @@ function About() {
                             
                                 <p class="pl-4  text-darkbluetheme font-medium text-sm md:text-lg">
                                 
-                                <b class="text-titleblue">Choice -</b> At WaterFields Health Care Ltd we value everyone's hapiness and comfort. 
+                                <b class="text-titleblue">Choice -</b> At WaterFields HealthCare Ltd we value everyone's hapiness and comfort. 
                                 Service users are free to choose the services they want and how they want them .
 
                                 <br/><br/>

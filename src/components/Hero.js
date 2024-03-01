@@ -85,7 +85,7 @@ export default Hero */
 import React from 'react';
 import { Zoom } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
-import doctor from "../images/doctor-taking-care-senior-woman-home.jpg"
+import doctor from "../images/social-worker-taking-care-senior-woman.jpg"
 import hands from "../images/hands-holding-each-other-support.jpg"
 import closesupport from "../images/closeup-support-hands.jpg"
 
@@ -117,7 +117,7 @@ const Hero = () => {
           </div>
 
           <div className=" overlay px-4 mx-auto max-w-screen-xl text-left sm:py-16  lg:py-40">
-          <h1 class=" text-4xl font-extrabold  tracking-tight leading-none text-pink-800 md:text-5xl lg:text-6xl"style={{color: each.colour}}>WaterField Health Care Ltd,</h1>
+          <h1 class=" text-4xl font-extrabold  tracking-tight leading-none text-pink-800 md:text-5xl lg:text-6xl"style={{color: each.colour}}>WaterFields HealthCare Ltd,</h1>
           <p class=" text-2xl font-bold text-pink-800  lg:text-4xl sm:px-16 lg:px-48" style={{color: each.colour}}>
           {each.text1}.
               
