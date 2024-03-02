@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../images/logo1.png'
+import logo from '../images/Logo Waterfields FULL.png'
 import {Link} from 'react-router-dom'
 import excellent from '../images/reliability.png'
 import equal from '../images/expertise.png'
@@ -115,9 +115,9 @@ function Footer() {
         <hr class="my-6 border-yellowfooter sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div class="sm:flex sm:items-center sm:justify-between ml-3">
         <span class="block text-sm text-yellowfooter sm:text-center dark:text-gray-400 col-span-1">© 2024  
-            <a href="jjj" class="hover:underline text-yellowfooter">
+        <Link to="/" class="hover:underline text-yellowfooter">
                  WaterFields HealthCare™
-            </a>. 
+        </Link>. 
             All Rights Reserved.
         </span>
 

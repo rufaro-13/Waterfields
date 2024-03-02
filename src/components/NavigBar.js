@@ -3,7 +3,7 @@
 import {FaEnvelopeOpenText,FaMobileScreenButton} from 'react-icons/fa6';
 import {Dropdown,  Navbar } from 'flowbite-react';
 import { Link } from "react-router-dom";
-import logo from '../images/logo.jpg'
+import logo from '../images/Logo Waterfields FULL.png'
 import {IconContext} from "react-icons";
 export default function NavbarWithCTAButton() {
   return (
@@ -52,7 +52,7 @@ export default function NavbarWithCTAButton() {
           src={logo}
         /></Link>
         <span className="self-center whitespace-nowrap text-pink-500 text-xl font-bold dark:text-white">
-          WaterFields HealthCare
+          {/* WaterFields HealthCare */}
         </span>
       </Navbar.Brand>
       <div className="flex md:order-2 text-white">
