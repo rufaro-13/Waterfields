@@ -115,7 +115,7 @@ const Hero = () => {
             <div className=" rounded-lg  border-1 shadow-2xl mx-auto" key={index} style={{ width: "50%" }}>
               <img className="brightness-70 object-scale-down rounded-lg"/* style={{ objectFit: "cover", width: "100%" ,height: "30%",}} */ alt="Slide " src={each.image} />
           </div>
-              <div className=" overlay px-4 mx-auto max-w-screen-xl  sm:py-16  lg:py-40">
+              <div className=" overlay  mx-auto max-w-screen-xl  sm:py-16  lg:py-40">
                 <h1 class=" text-4xl font-extrabold  tracking-tight leading-none text-pink-800 md:text-5xl lg:text-6xl"style={{color: each.colour}}>NV HealthCare Ltd,</h1>
                 <p class=" text-2xl font-bold text-pink-800  lg:text-4xl sm:px-16 lg:px-48" style={{color: each.colour}}>
                 {each.text1}.
