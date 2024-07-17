@@ -5,9 +5,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'navcolour':'#0802A3',
-        'titleblue':'#FF3EA5',
-        
+        'navcolour':'#2D9596',
+        'titleblue':'#006769',
+        'crystalteal':'#006883',
+        'icyteal':'#B5C4C0',
         /* 'bluetheme':'#E8FFFF', */
         'bluetheme':'white',
         'darkbluetheme':'#11009E',

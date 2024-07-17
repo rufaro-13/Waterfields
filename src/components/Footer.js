@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../images/Logo Waterfields FULL.png'
+import logo from '../images/nv3 PNG.png'
 import {Link} from 'react-router-dom'
 import excellent from '../images/reliability.png'
 import equal from '../images/expertise.png'
@@ -13,7 +13,7 @@ function Footer() {
 <div className='bg-sky-50'>
     <div className="sm:item-center  sm:justify-center text-center ">
 
-        <h1 className='sm:tetx-2xl md:text-4xl text-darkbluetheme font-extrabold'>Why Choose Us</h1>
+        <h1 className='sm:tetx-2xl md:text-4xl text-navcolour font-extrabold'>Why Choose Us</h1>
     </div>
 
     <div className='lg:flex grid  lg:grid-cols-3 lg:gap-4 m-auto md:grid-cols-2 md:gap-x-2 grid-col-1 pt-8 px-2 md:px-5 '>
@@ -47,7 +47,7 @@ function Footer() {
             </h5></center>
             <p className="font-normal text-sm md:text-lg text-darkbluetheme dark:text-gray-400 pt-4">
                 <p class='text-left'>
-                We have a team of dedicated, passionate and knowledgable caregivers who provide great care. We work with families to find the most suitable caregiver
+                We have a team of dedicated, passionate and experienced caregivers who provide great care. We work with families to find the most suitable caregiver
                 for everyone who uses our services.<br/><br/>
                 </p>
 
@@ -64,7 +64,7 @@ function Footer() {
             </h5></center>
             <p className="font-normal text-sm md:text-lg text-darkbluetheme dark:text-gray-400 pt-4">
                 <p class='text-left'>
-                    Our staff members are well trained and equiped for care work to ensure we deliver the best services
+                    Our staff members are well trained and equipped to ensure we deliver the best services
                     that align with care standards.
                 </p>
 
@@ -82,11 +82,11 @@ function Footer() {
     <div class="w-full max-w-screen-xl mx-auto py-5 md:py-8">
         <div class="sm:flex sm:items-center sm:justify-between">
             <a href="jjj" class="flex items-center mb-4 sm:mb-0">
-                <img src={logo} class="h-8 md:h-16 ml-2" alt="Enroute Logo" />
-                <span class="self-center text-yellowfooter md:text-2xl text-1xl font-bold whitespace-nowrap dark:text-white">  WaterFields HealthCare Ltd</span>
+                <img src={logo} class="h-8 md:h-28 ml-2" alt="Enroute Logo" />
+                <span class="self-center text-white md:text-2xl text-1xl font-bold whitespace-nowrap dark:text-white">  NV HealthCare Ltd</span>
             </a>
             <ul class="flex flex-wrap text-lg text-sm  pt-6 text-base font-medium text-white sm:mb-0 dark:text-gray-400">
-                <p className='text-yellowfooter text-lg font-bold md:px-6 px-4'>
+                <p className='text-white text-lg font-bold md:px-6 px-4'>
                     About<br/>
                     <ul class="list-disc ml-6 text-sm font-bold">
                              <li><Link to='/about'><u>Mission</u></Link></li>
@@ -96,7 +96,7 @@ function Footer() {
                             
                     </ul>
                 </p>
-                <p  className='text-yellowfooter text-lg font-bold md:px-8 px-4'>
+                <p  className='text-white text-lg font-bold md:px-8 px-4'>
                     Services<br/>
                     <ul class="list-disc ml-6 text-sm font-bold">
                              <li><Link to='/services'><u>Domiciliary Care</u></Link></li>
@@ -107,21 +107,21 @@ function Footer() {
                             </ul>
                 </p>
                 
-                <Link to="/contact" className='text-yellowfooter text-lg font-bold md:px-8 px-4'>
+                <Link to="/contact" className='text-white text-lg font-bold md:px-8 px-4'>
                     Contact
                 </Link>
             </ul>
         </div>
-        <hr class="my-6 border-yellowfooter sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <hr class="my-6 border-white sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div class="sm:flex sm:items-center sm:justify-between ml-3">
-        <span class="block text-sm text-yellowfooter sm:text-center dark:text-gray-400 col-span-1">© 2024  
-        <Link to="/" class="hover:underline text-yellowfooter">
-                 WaterFields HealthCare™
+        <span class="block text-sm text-white sm:text-center dark:text-gray-400 col-span-1">© 2024  
+        <Link to="/" class="hover:underline text-white">
+                 NV HealthCare™
         </Link>. 
             All Rights Reserved.
         </span>
 
-        <span class="md:mr-3 block text-xs text-yellowfooter sm:text-center dark:text-gray-400 col-span-1 "> 
+        <span class="md:mr-3 block text-xs text-white sm:text-center dark:text-gray-400 col-span-1 "> 
             <a href="mailto:rufarochiuta@gmail.com" class="hover:underline">
                 Developed by Amani First
             </a><br/>

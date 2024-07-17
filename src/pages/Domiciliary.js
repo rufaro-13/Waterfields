@@ -16,13 +16,13 @@ function Domiciliary() {
         <section>
         <section class=" bg-cover bg-center bg-no-repeat bg-team_work bg-gray-600  bg-blend-multiply">
             <div class="px-4 mx-auto max-w-screen-xl  bg- py-24 lg:py-34">
-                <h1 class="mb-4 text-4xl font-extrabold  tracking-tight leading-none text-yellowtheme md:text-5xl lg:text-6xl">
-                Services offered by WaterFields:</h1>
+                <h1 class="mb-4 text-4xl font-extrabold  tracking-tight leading-none text-icyteal md:text-5xl lg:text-6xl">
+                Services offered by NV:</h1>
                
                 <div class="  md:w-1/2   rounded-lg  text-white   mx-4 ">
                             
 
-                            <p class='font-normal font-semibold text-sm md:text-lg px-2'>
+                            <p class=' font-semibold text-sm md:text-lg px-2'>
                            We offer a range of services :<br/><br/>
                             <div className='ml-6'><ul class="list-disc ">
                              <li><a class='' href='#domiciliary'><u>Domiciliary Care</u></a></li>
@@ -122,7 +122,7 @@ function Domiciliary() {
                                     <p className="font-normal text-sm md:text-base  dark:text-gray-400 pt-4">
                                         <p className='rounded-lg text-left '>
                                         
-                                        We provide a range of services to those with a terminal diagnosis. WaterFields is there to provide physical, emotional,
+                                        We provide a range of services to those with a terminal diagnosis. NV Health Care is there to provide physical, emotional,
                                         social, and spiritual support for service users and their families during defining moments of life. We offer this service from the time of diagnosis through end-of-life.
                                         <br/><br/>
                                         <span className=' font-bold'>Why you should join us:</span> <br/><br/>
@@ -130,7 +130,7 @@ function Domiciliary() {
                                             <li>We provide reassurance, comfort and companionship.</li>
                                             <li>We bring comfort to loved ones by knowing that their relative/friend is receiving good quality care.
                                             </li>
-                                            <li>Prompting medication from blister pack and monitoring supply</li>
+                                            <li>We excel in medication management and compliance.</li>
                                         </ul>
                                         </p>
 

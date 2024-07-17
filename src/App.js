@@ -26,6 +26,7 @@ function App() {
             <Route forceRefresh={true} path='/social' element= {<Social/>}></Route>
             <Route forceRefresh={true} path='/personal' element= {<Personal/>}></Route>
             <Route forceRefresh={true} path='/sitting' element= {<Sitting/>}></Route>
+            
             </Route>
           </Routes>
     </BrowserRouter>

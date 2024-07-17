@@ -6,10 +6,37 @@ import domic from "../images/unrecognizable-elderly-man-being-assisted-walk-with
 import paliat from '../images/happy-nurse-serving-elderly-senior-man-breakfast-bed-bedroom-nursing-home-thumb-up.jpg'
 import respite from '../images/side-view-nurse-pushing-disabled-patient-wheel-chair.jpg'
 import supported from '../images/social-worker-taking-care-senior-woman.jpg'
-/* import serv from '../images/24-hours.gif' */
+//import { Carousel, CarouselItem, CarouselRef } from 'react-round-carousel';
 import Hero from '../components/Hero';
+/* import {IconContext} from "react-icons";
+import { FaCircleChevronDown } from "react-icons/fa6";
+import doctor from "../images/social-worker-taking-care-senior-woman.jpg"
+import hands from "../images/hands-holding-each-other-support.jpg"
+import closesupport from "../images/closeup-support-hands.jpg"
+import dCar from '../components/3dCar'; */
 /* import vide from '../images/pexels-kampus-production-7517699 (720p).mp4' */
+
+// Create an array of Carousel Items
+
+
+
+/* const items = Array(5)
+	.fill('')
+	images.map((_, index) => ({
+	alt: 'A random photo',
+	image: _.image1,
+	content: (
+		<div>
+		<strong>Round Carousel</strong>
+		<span>Slide number {index + 1}</span>
+		</div>
+	)
+	})); */
+
 function Home() {
+
+   // const carouselRef = React.createRef();
+
   return (
     <div >
  {/* 'bluetheme':'rgb(245 208 254)', */}
@@ -18,7 +45,7 @@ function Home() {
             <meta name="description" content=" Enroute Care Ltd, the home of love and care."/>
             <link rel="canonical" href="/" />
         </Helmet> */}
-       <section>
+       <section className='bg-navcolour'>
         <section class="container bg-cover bg-center bg-no-repeat bg-hero_pattern md:justify-center bg-blend-multiply ">
             
           {/* <video class="video-fluid" controls autoPlay muted loop   >
@@ -42,6 +69,27 @@ function Home() {
 
                 
             </div> */}
+           {/*  <center>
+            <IconContext.Provider value={{ color: 'white', size: '20px', padding:'3px 2px' }}>
+                
+                    <div class="flex  sm:items-center text-xs md:text-base sm:justify-center mr-2 my-auto">
+                    <Link
+          
+          to="/gallery"
+        > <FaCircleChevronDown 
+         class="sm:items-center sm:justify-center  mr-2 "/></Link>
+                    </div>
+                </IconContext.Provider>
+            </center> */}
+        </section>
+        
+        {/* <Carousel
+			ref={carouselRef}
+			items={items}
+			slideOnClick
+		/>
+ */}
+    
         </section>
         {/* <div className=' text-center italic text-xs'><a  href=' https://www.pexels.com/video/a-woman-instructing-the-elderly-man-to-the-medicine-7517699/'>  Video by Kampus Production</a></div> */}
 {/* 
@@ -157,7 +205,7 @@ function Home() {
             </div>
 
         </section>
-</section> 
+ 
     </div>
   )
 }

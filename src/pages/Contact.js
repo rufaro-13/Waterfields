@@ -35,16 +35,15 @@ function Contact() {
 
                 <div class="lg:px-4 mx-auto max-w-screen-xl text-center pt-6  ">
                     <h4 class="mb-4 text-1xl font-extrabold tracking-tight leading-none text-darkbluetheme md:text-3xl lg:text-3xl">
-                    Contacting WaterFields HealthCare
+                    Contacting NV Health Care
                     </h4>
                 </div> 
 
                 <div class="sm:flex sm:items-center sm:justify-center lg:mx-8 mt-2 px-5">
                   <p class=" font-normal text-sm md:text-lg text-darkbluetheme">
-                      To request more information, please give us a call or email us. We would love to speak to you regarding
-                      our experienced support carers that can help you deliver excellent services to your business and clients.
-                      You can also enquire about our services. Simply leave your contact information using the form below and we will 
-                      get back to you as soon as possible.
+                      To request more information, please give us a call or email us. We would 
+                      love to speak to you regarding our services. You can also enquire about our 
+                      services. Simply leave your contact information using the form below and we will get back to you as soon as possible.
                   </p>
                   <br/>
             
@@ -58,15 +57,15 @@ function Contact() {
                      <div class="lg:px-1 px-4  col-span-1 max-w-max  md:w-1/2 sm:items-start sm:justify-start">
 
                         <IconContext.Provider value={{ color: '#ff0000', size: '50px', padding:'5px 2px' }}>
-                            <a href="mailto:talk2us@waterfieldshealthcare.com"><div class="  sm:items-center sm:justify-center  mx-5 mt-5 mb-5">
+                            <a href="mailto:talk2us@wnvhealthcare.com"><div class="  sm:items-center sm:justify-center  mx-5 mt-5 mb-5">
                             
                             <FaEnvelopeOpenText class="sm:items-center sm:justify-center mx-6 my-6"/>
                             </div></a>
                           </IconContext.Provider>
                           <div class="  sm:items-center sm:justify-center  mt-1">
                             <p class=" text-1xl font-normal">
-                            <div><span class="text-black text-2xl font-bold"><a href="mailto:talk2us@waterfieldshealthcare.com" className="block py-2 pl-3 pr-4 underline text-navcolour rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Email Us</a></span></div>
-                            talk2us@waterfieldshealthcare.com
+                            <div><span class="text-black text-2xl font-bold"><a href="mailto:talk2us@nvhealthcare.com" className="block py-2 pl-3 pr-4 underline text-navcolour rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Email Us</a></span></div>
+                            talk2us@nvhealthcare.com
 
                             </p>
                           </div>
@@ -75,7 +74,7 @@ function Contact() {
                     <div class="lg:px-1 px-4  col-span-1 max-w-max  md:w-1/2 sm:items-start sm:justify-start">
 
                         <IconContext.Provider value={{ color: '#ff0000', size: '50px', padding:'5px 2px' }}>
-                            <a href="mailto:admin@waterfieldscare.com"><div class="  sm:items-center sm:justify-center  mx-5 mt-5 mb-5">
+                            <a href="mailto:admin@nvhealthcare.com"><div class="  sm:items-center sm:justify-center  mx-5 mt-5 mb-5">
                             
                             <FaEnvelopeOpenText class="sm:items-center sm:justify-center mx-6 my-6"/>
                             </div></a>
@@ -84,11 +83,11 @@ function Contact() {
                             <p class=" text-1xl font-normal">
                             <div>
                               <span class="text-black text-2xl font-bold">
-                                <a href="mailto:admin@waterfieldscare.com" 
+                                <a href="mailto:admin@nvhealthcare.com" 
                                 className="block py-2 pl-3 pr-4 underline text-navcolour rounded hover:bg-gray-100 
                                 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour 
                                 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Email Us</a></span></div>
-                            admin@waterfieldshealthcare.com
+                            admin@nvhealthcare.com
 
                             </p>
                           </div>
@@ -97,7 +96,7 @@ function Contact() {
                     <div class="lg:px-1 px-4  col-span-1 max-w-max  md:w-1/2 sm:items-start sm:justify-start">
 
                           <IconContext.Provider value={{ color: '#231f32', size: '50px', padding:'5px 2px' }}>
-                            <a href="tel:07401220999"><div class="  sm:items-center sm:justify-center   mt-5 mb-5">
+                            <a href="tel:07821498934"><div class="  sm:items-center sm:justify-center   mt-5 mb-5">
                               <FaMobileScreenButton class="sm:items-center sm:justify-center  my-6"/>
                             </div></a>
                           </IconContext.Provider>
@@ -107,7 +106,7 @@ function Contact() {
                             className="block py-2  underline text-darkbluetheme rounded hover:bg-gray-100 md:hover:bg-transparent 
                             md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700
                              dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Call Us</a></span></div>
-                            Mobile: 07451998627
+                            Mobile: 07821498934
                             </p>
                           </div>
 
@@ -116,7 +115,7 @@ function Contact() {
                     <div class="lg:px-1 px-4  col-span-1 max-w-max  md:w-1/2 sm:items-start sm:justify-start">
 
                           <IconContext.Provider value={{ color: '#231f32', size: '50px', padding:'5px 2px' }}>
-                            <a href="tel:07401220999"><div class="  sm:items-center sm:justify-center   mt-5 mb-5">
+                            <a href="tel:07365147952"><div class="  sm:items-center sm:justify-center   mt-5 mb-5">
                               <FaMobileScreenButton class="sm:items-center sm:justify-center  my-6"/>
                             </div></a>
                           </IconContext.Provider>
@@ -126,7 +125,7 @@ function Contact() {
                             className="block py-2  underline text-darkbluetheme rounded hover:bg-gray-100 md:hover:bg-transparent 
                             md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700
                              dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Call Us</a></span></div>
-                            Mobile: 07853981484
+                            Mobile: 07365147952
                             </p>
                           </div>
 
@@ -159,7 +158,7 @@ function Contact() {
                     <div class="lg:px-1 px-3  col-span-1 max-w-max  md:w-1/2 sm:items-start sm:justify-start">
 
                           <IconContext.Provider value={{ color: '#89cff0', size: '50px', padding:'5px 2px' }}>
-                            <a href="https://www.google.com/maps/place/10+Floathaven+Cl,+London+SE28+8SN,+UK/@51.5023267,0.104638,17.04z"><div class="  sm:items-center sm:justify-center   mt-5 mb-5">
+                            <a href="https://www.google.com/maps/place/10+Braemar+Rd,+Stockton-on-Tees,+Billingham+TS23+2AF,+UK/@54.6138346,-1.2987785,17z"><div class="  sm:items-center sm:justify-center   mt-5 mb-5">
                               <FaLocationDot class="sm:items-center sm:justify-center  my-6"/>
                             </div></a>
                           </IconContext.Provider>
@@ -167,12 +166,12 @@ function Contact() {
                             <p class=" text-1xl font-normal">
                               <div>
                                 <span class="text-black text-2xl font-bold">
-                                  <a href="https://www.google.com/maps/place/10+Floathaven+Cl,+London+SE28+8SN,+UK/@51.5023267,0.104638,17.04z" 
+                                  <a href="https://www.google.com/maps/place/10+Braemar+Rd,+Stockton-on-Tees,+Billingham+TS23+2AF,+UK/@54.6138346,-1.2987785,17z" 
                                       className="block py-2  underline text-navcolour rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Visit Us</a></span></div>
-                                      WaterFields HealthCare <br/>10 Floathaven Close
-                                      <br/>Thamesmead
-                                      <br/>London
-                                      <br/>SE28 8SN
+                                      NV Health Care Ltd <br/>10 Braemar Road
+                                      <br/>Billingham
+                                      <br/>England
+                                      <br/>TS23 2AF
                             </p>
                           </div>
 

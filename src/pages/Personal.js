@@ -21,10 +21,10 @@ function Personal() {
 
             <section>
         <div id='palliative' class="md:flex pt-2 ">
-                                <div class="md:w-1/2 col-span-1 px-2 shadow-2xl rounded-lg  ">
+                                <div class="md:w-1/2 col-span-1 px-2 shadow-2xl rounded-lg ">
                                     <img class="rounded-lg md:h-92" src={personal}  alt="" />
                                 </div>
-                                <div class="md:w-1/2 shadow-2xl rounded-lg bg-gray-200 sm:82 rounded-lg  border-2 border-bluetheme bg-bluetheme text-darkbluetheme sm:items-center sm:justify-center  mx-2 ">      
+                                <div class="md:w-1/2 shadow-2xl  bg-gray-200 sm:82 rounded-lg  border-2 border-bluetheme  text-darkbluetheme sm:items-center sm:justify-center  mx-2 ">      
                                     <h5 className="md:text-2xl text-lg font-bold tracking-tight text-titleblue dark:text-white pt-2">
                                         <p>
                                         Personal Care

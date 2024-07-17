@@ -1,14 +1,15 @@
+
 'use client'
 
-import {FaEnvelopeOpenText,FaMobileScreenButton} from 'react-icons/fa6';
+//import {FaEnvelopeOpenText,FaMobileScreenButton} from 'react-icons/fa6';
 import {Dropdown,  Navbar } from 'flowbite-react';
 import { Link } from "react-router-dom";
-import logo from '../images/Logo Waterfields FULL.png'
-import {IconContext} from "react-icons";
+import logo from '../images/nv3 PNG.png'
+//import {IconContext} from "react-icons";
 export default function NavbarWithCTAButton() {
   return (
 <div>
- <nav class="bg-white border-gray-200 dark:bg-gray-900">
+ {/* <nav class="bg-white border-gray-200 dark:bg-gray-900">
         <div class="flex flex-wrap grid grid-cols-2 sm:h-8 md:h-16  justify-between items-center  max-w-screen-2xl ">
             <div class=" md:flex bg-navcolour h-full items-center space-x-3 rtl:space-x-reverse  ">
 
@@ -33,29 +34,20 @@ export default function NavbarWithCTAButton() {
                 
             </div>
         </div>
-    </nav>
+    </nav> */}
 
     <Navbar
-
       fluid
-      
-      className="bg-white"
+      className="bg-navcolour"
     >
       <Navbar.Brand >
-        <Link
-          
-          to="/"
-        >
-        <img
-          alt="Flowbite React Logo"
-          className="mr-3 h-12 sm:h-24"
-          src={logo}
-        /></Link>
+        <Link to="/"> <img alt="Flowbite React Logo" className="mr-3 h-12 sm:h-24" src={logo} /></Link>
         <span className="self-center whitespace-nowrap text-pink-500 text-xl font-bold dark:text-white">
           {/* WaterFields HealthCare */}
         </span>
       </Navbar.Brand>
-      <div className="flex md:order-2 text-white">
+      <div className="flex md:order-2 text-white">git push -u origin main
+        
         
         <Navbar.Toggle />
       </div>
@@ -64,38 +56,38 @@ export default function NavbarWithCTAButton() {
           active
           to="/"
         >
-          <p className='text-pink-500 font-bold md:text-lg'>
+          <p className='text-white font-bold md:text-lg'>
             Home
           </p>
         </Link>
-        <Link to="/about" className='text-pink-500 font-bold md:text-lg'>
+        <Link to="/about" className='text-white font-bold md:text-lg'>
           About
         </Link>
-        <div className='text-pink-500 font-bold md:text-lg'><Dropdown
+        <div className='text-white font-bold md:text-lg'><Dropdown
           inline
           label="Domiciliary"
-          className='text-pink-500 font-bold md:text-lg'
+          className='text-white font-bold md:text-lg'
         >
-        <Dropdown.Header className='bg-gray-200'>
+        <Dropdown.Header className='bg-navcolour'>
         <ul class="py-2 text-sm text-gray-700 dark:text-gray-400">
-        <Link to="/social" className='text-pink-500 font-bold md:text-sm hover:bg-blue-700 hover:text-white'>
+        <Link to="/social" className='text-white font-bold md:text-sm hover:bg-blue-700 hover:text-white'>
           Social Inclusion
         </Link><br/>
-        <Link to="/personal" className='text-pink-500 font-bold md:text-sm hover:bg-blue-700 hover:text-white'>
+        <Link to="/personal" className='text-white font-bold md:text-sm hover:bg-blue-700 hover:text-white'>
           Personal Care
         </Link><br/>
-        <Link to="/sitting" className='text-pink-500 font-bold md:text-sm hover:bg-blue-700 hover:text-white'>
+        <Link to="/sitting" className='text-white font-bold md:text-sm hover:bg-blue-700 hover:text-white'>
           Sitting Call
         </Link><br/>
                 </ul>
           </Dropdown.Header>
           
         </Dropdown></div>
-        <Link to="/services" className='text-pink-500 font-bold md:text-lg'>
+        <Link to="/services" className='text-white font-bold md:text-lg'>
           Services
         </Link>
         
-        <Link to="/contact" className='text-pink-500 font-bold md:text-lg'>
+        <Link to="/contact" className='text-white font-bold md:text-lg'>
           Contact
         </Link>
       </Navbar.Collapse>
@@ -103,5 +95,3 @@ export default function NavbarWithCTAButton() {
     </div>
   )
 }
-
-

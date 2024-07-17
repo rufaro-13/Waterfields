@@ -42,8 +42,12 @@ function About() {
                         <p class="pl-4 font-normal text-darkbluetheme text-sm md:text-lg">
                         
                         To provide a high standard of care and support to all our service users promoting their wellbeing.
-                        Providing person centred care and support to all our service users with a range of care and support needs.
-                         Our team of healthcare professionals is there to provide care and support 24/7.
+                        Providing person centered care and support to all our service users with a range of care and support needs.
+                         Our team of healthcare professionals is there to provide care and support 24/7. At NV Health Care, we are dedicated to 
+                         providing compassionate, high-quality care tailored to the unique needs of each individual. Our team of experienced 
+                         professionals offers a wide range of services including home care, assisted living supported and specialized care for 
+                         those with chronic conditions or disabilities. We prioritise dignity, respect and independence, ensuring that all our 
+                         clients receive personalised care and support in a more nurturing environment. 
 
 
                         <br/><br/>
@@ -66,8 +70,12 @@ function About() {
 
                         <p class="pl-4 font-normal text-darkbluetheme text-sm md:text-lg">
                         
-                        WaterFields will be a recognised leader in improving the quality of HealthCare in the communities we serve .<br/>
-                        To become providers of choice.
+                        NV Health Care Ltd will be a recognised leader in improving the quality of Health Care in the communities we serve.
+                        Our vision is to become providers of choice. We envision a future where every individual receives personalised and 
+                        empathetic care, fostering trust and well-being in our community. Our dedication to excellence ensures that each client 
+                        experiences good quality care, holistic support and empowering them to lead a healthier life. At NV Health Care we strive 
+                        to build a healthcare system where quality and self-centered care are paramount, reinforcing our commitment to a healthier 
+                        and happier future for all. 
 
 
                         <br/><br/>
@@ -133,9 +141,8 @@ function About() {
                             
                                 <p class="pl-4 font-medium text-darkbluetheme text-sm md:text-lg">
                                 
-                                <b class="text-titleblue">Person Centred Care -</b>WaterFields is flexible enough to be guided by the service user. We can work with each individual's 
-                                care plan.
-
+                                <b class="text-titleblue">Person Centred Care -</b>NV Health Care is flexible and we value service user’s unique needs. We work with each individual according to 
+                                their care and support plan.
                                 <br/><br/>
 
                                 </p>
@@ -151,9 +158,8 @@ function About() {
                             
                                 <p class="pl-4  text-darkbluetheme font-medium text-sm md:text-lg">
                                 
-                                <b class="text-titleblue">Choice -</b> At WaterFields HealthCare Ltd we value everyone's hapiness and comfort. 
-                                Service users are free to choose the services they want and how they want them .
-
+                                <b class="text-titleblue">Choice -</b> At NV Health Care we value everyone's happiness and comfort. Service users are free to choose the services they want with help of 
+                                their family and how they want to be supported.
                                 <br/><br/>
 
                                 </p>
